@@ -1,8 +1,5 @@
 body 
 {
-    background-image: url(../images/external-content.duckduckgo.com.jpg);
-    background-position: center;
-    background-size: cover;
     margin:0px;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
@@ -16,19 +13,11 @@ body
     font-size: 15px;
     opacity: 0.8;
 }
-#nav img {
-    position: absolute;
-    width: 30px;
-    height: auto;
-    left: 10px;
-    top: 20px;
-
-}
 #nav ul {
     list-style: none;
     display: flex;
     margin-top: 0px ;
-    margin-left: 400px;
+    margin-left: 25%;
 }
 #nav ul li {
     margin: 5px 15px;
@@ -49,7 +38,7 @@ body
      margin-left: 65%;
      margin-top: 0px;
      background-color: tomato;
-     opacity: 0.5;
+     opacity: 0.8;
      width: fit-content;
      height: fit-content;
      color: white;
@@ -57,7 +46,46 @@ body
      font-size: 50px;
      border-radius: 0px 30px 30px 30px;
  }
- #top p{
-     opacity: 1;
- }
+
  /*TOP*/
+ /*CONTENT*/
+ .content {
+     background-color: tomato;
+     width: 900px;
+     opacity: 0.8;
+     font-size: 20px;
+     margin-left: 20px;
+     margin-top: 20px;
+     padding: 20px;
+     border-radius: 10px;
+     color: white;
+ }
+ /*CONTENT*/
+ /*FOOTER*/
+ footer {
+     width: 95%;
+     margin: 20px 20px;
+     background-color: tomato;
+     opacity: 0.8;
+     padding: 20px 20px 5px 20px;
+     font-size: 20px;
+     border-radius: 10px;
+}
+footer ul {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer ul li {
+    margin: 0 10px;
+}
+footer li a:hover
+ {
+     text-decoration: underline;
+ }
+ /*FOOTER*/
